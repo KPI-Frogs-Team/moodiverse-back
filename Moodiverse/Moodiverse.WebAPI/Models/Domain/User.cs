@@ -15,6 +15,8 @@ public class User : BaseDomain
     public string Password { get; set; }
     [Required]
     public string Salt { get; set; }
+    [Required(ErrorMessage = "Birthdate must be specified")]
+    public DateTime Birthdate { get; set; }
     
     public string? FirstName { get; set; }
     public string? LastName { get; set; }

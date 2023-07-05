@@ -7,4 +7,5 @@ public class UserDataDto
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string Sex { get; set; }
+    public string Birthdate { get; set; }
 }
