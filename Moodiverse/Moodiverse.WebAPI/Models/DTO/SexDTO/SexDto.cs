@@ -1,4 +1,4 @@
-namespace Moodiverse.WebAPI.Models.DTO;
+namespace Moodiverse.WebAPI.Models.DTO.SexDTO;
 
 public class SexDto
 {
