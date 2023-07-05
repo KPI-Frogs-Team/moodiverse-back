@@ -1,6 +1,6 @@
-namespace Moodiverse.WebAPI.Models.DTO;
+namespace Moodiverse.WebAPI.Models.DTO.UserDTO;
 
-public class CreateUserDto
+public class RegisterUserDto
 {
     public string Username { get; set; }
     public string Email { get; set; }
