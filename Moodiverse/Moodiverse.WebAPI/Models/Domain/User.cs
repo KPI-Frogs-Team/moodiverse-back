@@ -22,6 +22,6 @@ public class User : BaseDomain
     public string? LastName { get; set; }
     public int? SexId { get; set; }
     
-    public virtual Sex Sex { get; set; }
+    public virtual Sex? Sex { get; set; }
     public virtual Avatar Avatar { get; set; }
 }

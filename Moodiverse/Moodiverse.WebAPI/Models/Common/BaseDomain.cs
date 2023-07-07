@@ -2,7 +2,7 @@ namespace Moodiverse.WebAPI.Models.Common;
 
 public abstract class BaseDomain
 {
-    public Guid Id { get; set; }
+    public int Id { get; set; }
     private DateTime _createdAt;
 
     public BaseDomain()
