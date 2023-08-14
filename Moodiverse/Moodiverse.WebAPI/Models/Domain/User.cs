@@ -6,15 +6,15 @@ namespace Moodiverse.WebAPI.Models.Domain;
 public class User : BaseDomain
 {
     [Required(ErrorMessage = "Username must be specified")]
-    public string Username { get; set; }
+    public string Username { get; set; } = null!;
     [Required(ErrorMessage = "Email must be specified")]
-    public string Email { get; set; }
+    public string Email { get; set; } = null!;
     [Required]
     public int AvatarId { get; set; }
     [Required(ErrorMessage = "Password must be specified")]
-    public string Password { get; set; }
+    public string Password { get; set; } = null!;
     [Required]
-    public string Salt { get; set; }
+    public string Salt { get; set; } = null!;
     [Required(ErrorMessage = "Birthdate must be specified")]
     public DateTime Birthdate { get; set; }
     
@@ -23,5 +23,5 @@ public class User : BaseDomain
     public int? SexId { get; set; }
     
     public virtual Sex? Sex { get; set; }
-    public virtual Avatar Avatar { get; set; }
+    public virtual Avatar Avatar { get; set; } = null!;
 }

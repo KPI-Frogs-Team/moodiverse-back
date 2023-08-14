@@ -10,9 +10,9 @@ public class MoodiverseDbContext : DbContext
         
     }
     
-    public DbSet<Sex> Sexes { get; set; }
-    public DbSet<Avatar> Avatars { get; set; }
-    public DbSet<Mood> Moods { get; set; }
-    public DbSet<User> Users { get; set; }
-    public DbSet<Record> Records { get; set; }
+    public DbSet<Sex> Sexes { get; set; } = null!;
+    public DbSet<Avatar> Avatars { get; set; } = null!;
+    public DbSet<Mood> Moods { get; set; } = null!;
+    public DbSet<User> Users { get; set; } = null!;
+    public DbSet<Record> Records { get; set; } = null!;
 }

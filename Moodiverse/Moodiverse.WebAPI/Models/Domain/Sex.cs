@@ -1,9 +1,8 @@
-using System.ComponentModel.DataAnnotations;
 using Moodiverse.WebAPI.Models.Common;
 
 namespace Moodiverse.WebAPI.Models.Domain;
 
 public class Sex : BaseDomain
 {
-    public string Name { get; set; }
+    public string Name { get; set; } = null!;
 }

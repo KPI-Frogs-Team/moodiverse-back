@@ -5,8 +5,8 @@ namespace Moodiverse.WebAPI.Models.Domain;
 
 public class Mood : BaseDomain
 {
-    public string Name { get; set; }
-    public string PictureURL { get; set; }
+    public string Name { get; set; } = null!;
+    public string PictureURL { get; set; } = null!;
     [Range(0, 10)]
     public int Points { get; set; } 
 }
