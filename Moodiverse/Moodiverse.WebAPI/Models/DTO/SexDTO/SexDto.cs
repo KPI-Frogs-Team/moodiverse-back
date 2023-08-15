@@ -2,5 +2,5 @@ namespace Moodiverse.WebAPI.Models.DTO.SexDTO;
 
 public class SexDto
 {
-    public string Name { get; set; }
+    public string Name { get; set; } = null!;
 }

@@ -4,5 +4,5 @@ namespace Moodiverse.WebAPI.Models.Domain;
 
 public class Avatar : BaseDomain
 {
-    public string URL { get; set; }
+    public string URL { get; set; }  = null!;
 }

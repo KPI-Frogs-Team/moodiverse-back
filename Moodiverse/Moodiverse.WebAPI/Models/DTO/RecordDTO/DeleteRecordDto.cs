@@ -2,5 +2,5 @@ namespace Moodiverse.WebAPI.Models.DTO.RecordDTO;
 
 public class DeleteRecordDto
 {
-    public string Password { get; set; }
+    public string Password { get; set; } = null!;
 }

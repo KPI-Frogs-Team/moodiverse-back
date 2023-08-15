@@ -8,6 +8,6 @@ public class Record : BaseDomain
     public int MoodId { get; set; }
     public string? Text { get; set; }
     
-    public virtual User User { get; set; }
-    public virtual Mood Mood { get; set; }
+    public virtual User User { get; set; } = null!;
+    public virtual Mood Mood { get; set; } = null!;
 }
