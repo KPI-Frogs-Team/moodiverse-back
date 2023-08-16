@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Moodiverse.DAL.Context;
 
 namespace Moodiverse.WebAPI.Controllers;
 
