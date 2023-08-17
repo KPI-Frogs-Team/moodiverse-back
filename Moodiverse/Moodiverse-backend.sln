@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodiverse.WebAPI", "Moodiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodiverse.BL", "Moodiverse.BL\Moodiverse.BL.csproj", "{0B953AA4-977F-4E93-A590-BF9685665339}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodiverse.DAL", "Moodiverse.DAL\Moodiverse.DAL.csproj", "{4FD64A5E-3876-4A3B-8707-BA258D466228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodiverse.Common", "Moodiverse.Common\Moodiverse.Common.csproj", "{53F5DE58-7C13-46A7-9010-8780235BFD19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{0B953AA4-977F-4E93-A590-BF9685665339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B953AA4-977F-4E93-A590-BF9685665339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B953AA4-977F-4E93-A590-BF9685665339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD64A5E-3876-4A3B-8707-BA258D466228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD64A5E-3876-4A3B-8707-BA258D466228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD64A5E-3876-4A3B-8707-BA258D466228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD64A5E-3876-4A3B-8707-BA258D466228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F5DE58-7C13-46A7-9010-8780235BFD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F5DE58-7C13-46A7-9010-8780235BFD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F5DE58-7C13-46A7-9010-8780235BFD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F5DE58-7C13-46A7-9010-8780235BFD19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
