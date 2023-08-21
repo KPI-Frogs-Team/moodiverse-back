@@ -26,6 +26,7 @@ public class AutoMapperProfiles : Profile
 
         CreateMap<Sex, SexDto>().ReverseMap();
 
+        CreateMap<User, UserDto>().ReverseMap();
         CreateMap<User, DeleteUserDto>().ReverseMap();
         CreateMap<User, LoginUserDto>().ReverseMap();
         CreateMap<User, RegisterUserDto>().ReverseMap();

@@ -9,8 +9,8 @@ public class User : BaseDomain
     public string Username { get; set; } = null!;
     [Required(ErrorMessage = "Email must be specified")]
     public string Email { get; set; } = null!;
-    [Required]
-    public int AvatarId { get; set; }
+    public int? AvatarId { get; set; }
+    
     [Required(ErrorMessage = "Password must be specified")]
     public string Password { get; set; } = null!;
     [Required]
@@ -23,5 +23,5 @@ public class User : BaseDomain
     public int? SexId { get; set; }
     
     public virtual Sex? Sex { get; set; }
-    public virtual Avatar Avatar { get; set; } = null!;
+    public virtual Avatar? Avatar { get; set; }
 }
